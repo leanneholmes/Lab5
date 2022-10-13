@@ -4,15 +4,68 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/light_grey"
     tools:context=".MainActivity">
 
-    <TextView
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="311dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="280dp"
+        android:contentDescription="@string/logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo1"
+        app:tint="@color/blue" />
+
+    <Button
+        android:id="@+id/SignIn"
+        android:layout_width="293dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="@color/blue"
+        android:text="@string/sign_in"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/CreateAccount"
+        android:layout_width="293dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="9dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/create_an_account"
+        android:textColor="@color/blue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SignIn" />
+
+    <ImageView
+        android:id="@+id/imageView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginStart="124dp"
+        android:layout_marginBottom="172dp"
+        android:alpha="0.6"
+        android:contentDescription="@string/ellipse2"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:srcCompat="@drawable/ellipse_2" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="325dp"
+        android:layout_height="331dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginBottom="104dp"
+        android:alpha="0.7"
+        android:contentDescription="@string/ellipse1"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:srcCompat="@drawable/ellipse_1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
