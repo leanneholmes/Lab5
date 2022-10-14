@@ -8,6 +8,8 @@
     <string name="welcome_back">Welcome Back</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
+    <string name="budget">Budget</string>
+    <string name="expense">Expense</string>
     <string-array name="countries_array">
         <item>Afghanistan</item>
         <item>Albania</item>
