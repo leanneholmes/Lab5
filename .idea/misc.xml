@@ -7,8 +7,12 @@
         <entry key="app/src/main/res/layout/activity_homepage.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.10914855072463768" />
         <entry key="app/src/main/res/layout/activity_sign_in.xml" value="0.10914855072463768" />
+        <entry key="app/src/main/res/layout/activity_todo.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_todo2.xml" value="0.10914855072463768" />
         <entry key="app/src/main/res/layout/fragment_budget.xml" value="0.10914855072463768" />
-        <entry key="app/src/main/res/layout/fragment_expense.xml" value="0.10914855072463768" />
+        <entry key="app/src/main/res/layout/fragment_expense.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_todolist.xml" value="0.24555754730666896" />
+        <entry key="app/src/main/res/layout/todo_item.xml" value="0.1" />
       </map>
     </option>
   </component>
